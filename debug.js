@@ -1,6 +1,6 @@
 // summation of all odd fibonacci numbers
 
-function fibonacci(num){
+function fibonacci(){
   let fibo=[1,1];
   let Next=fibo[fibo.length-2] + fibo[fibo.length-1];
   while(Next<=num){
